@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from 'react'
 import { signInWithEmailAndPassword, signOut } from 'firebase/auth'
-import { auth } from '../../config/firebaseConfig'
+import { auth } from './firebaseConfig'
 
 interface InputProps {
   email: string

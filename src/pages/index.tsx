@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Authentication from '../components/Authentication'
+import AuthenticationByGoogle from '../components/Authentication/ByGoogle'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='main'>
-        <Authentication />
+        <AuthenticationByGoogle />
       </main>
     </>
   )
