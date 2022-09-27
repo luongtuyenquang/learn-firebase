@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import AuthenticationByGithub from '../components/Authentication/ByGithub'
+import AddData from '../components/Cloud_Firestore/AddData'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='main'>
-        <AuthenticationByGithub />
+        <AddData />
       </main>
     </>
   )
