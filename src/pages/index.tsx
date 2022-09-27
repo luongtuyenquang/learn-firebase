@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import UpdateData from '../components/Cloud_Firestore/UpdateData'
+import DeleteData from '../components/Cloud_Firestore/DeleteData'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='main'>
-        <UpdateData />
+        <DeleteData />
       </main>
     </>
   )
