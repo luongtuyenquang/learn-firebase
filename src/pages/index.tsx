@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import UploadSingleFile from '../components/Storage/UploadFile/SingleFile'
+import UploadMultiFile from '../components/Storage/UploadFile/MultiFile'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='main'>
-        <UploadSingleFile />
+        <UploadMultiFile />
       </main>
     </>
   )
