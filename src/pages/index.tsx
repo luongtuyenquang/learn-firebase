@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import GetFileFromStorage from '../components/Storage/GetFile'
+import DeleteFile from '../components/Storage/DeleteFile'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='main'>
-        <GetFileFromStorage />
+        <DeleteFile />
       </main>
     </>
   )
